@@ -4,22 +4,32 @@
 steroids.config.name = "mealTeam"
 
 # ## Start Location
-steroids.config.location = "http://localhost/index.html"
+steroids.config.location = "http://localhost/views/home/home.html"
 
 # ## Tab Bar
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+ {
+   title: "Home"
+   icon: "icons/pill@2x.png"
+   location: "http://localhost/views/home/home.html"
+ },
+ {
+   title: "Team"
+   icon: "icons/team.png"
+   location: "http://localhost/views/team/team.html"
+ },
+ {
+   title: "Settings"
+   icon:  "icons/telescope@2x.png"
+   location: "http://localhost/views/settings/settings.html"
+ },
+ {
+   title: "History"
+   icon:  "icons/line_chart.png"
+   location: "http://localhost/views/history/history.html"
+ }
+]
 
 # ## Preloads
 # steroids.config.preloads = [
