@@ -1,0 +1,22 @@
+/* Application wide non-native CSS rules */
+h1{
+  text-align: center;
+}
+
+ul{
+  width: 100%;
+}
+
+li{
+  width: 100%;
+}
+
+li:first-child{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+li:last-child{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
